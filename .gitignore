@@ -1,0 +1,6 @@
+.env
+node_modules
+bun.lockb
+chroma.log
+.wrangler/
+package-lock.json

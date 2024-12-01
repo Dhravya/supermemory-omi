@@ -1,0 +1,4 @@
+name = "omi-hackathon"
+main = "index.ts"
+compatibility_date = "2024-10-11"
+compatibility_flags = [ "nodejs_compat" ]

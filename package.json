@@ -1,0 +1,18 @@
+{
+  "name": "omi",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "chromadb": "^1.9.4",
+    "hono": "^4.6.12",
+    "openai": "^4.73.1"
+  },
+  "scripts": {
+    "dev": "bun index.ts",
+    "build": "bun build index.ts",
+    "deploy": "bunx wrangler deploy"
+  }
+}
